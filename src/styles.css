@@ -1,0 +1,49 @@
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: .2rem;
+    background: #313639;
+    color: #f9f9f9;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: .7rem;
+}
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+svg {
+    background-color: #ddddddf3;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+
+button {
+    width: 200px;
+    display: inline;
+}
+
+.button-container {
+    display: flex;
+    margin: auto;
+    display: inline;
+}
+
+text {
+    text-wrap: wrap;
+    inline-size: 150px;
+    height: 500px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+select {
+    margin-right: 10px;
+}

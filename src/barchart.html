@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>CS 416 Narrative Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src='https://d3js.org/d3.v5.min.js'></script>
+        <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+        <script src="barchart.js"></script>
+    </head>
+
+    <body onload='{
+        init_barchart();
+    }'>
+        <br>
+        <h2>Total Cases / Deaths in the United States (Feb 2020 - May 2023)</h2>
+        <div id="viz_div"></div>
+        <p>&emsp;&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat, nunc nec dignissim consectetur, odio ligula semper elit, non elementum felis ex non eros. Sed tempus mauris eu velit placerat laoreet. Aliquam erat volutpat. Ut vel neque vitae augue euismod tempor. Aenean sapien ex, consequat nec nisl ut, accumsan dapibus leo. Nam nunc felis, commodo in magna et, aliquet vulputate augue. Proin libero mauris, fermentum ac egestas sit amet, pretium et urna. Aliquam finibus, lorem a semper mattis, ex ex commodo diam, in vulputate sapien lacus et lectus. Sed aliquet purus ac lorem faucibus interdum. Cras accumsan consectetur erat a sollicitudin. Sed quis pellentesque massa, sed ultricies risus. Praesent lobortis eleifend tellus ornare eleifend. Sed vel ex vel arcu aliquam condimentum vitae sit amet lorem. Aenean bibendum eu justo at eleifend. Nulla eu ligula ut felis aliquam dictum tempus quis metus. Nam sed tellus quis libero mattis consequat sit amet commodo justo</p>
+        <p>&emsp;&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat, nunc nec dignissim consectetur, odio ligula semper elit, non elementum felis ex non eros. Sed tempus mauris eu velit placerat laoreet. Aliquam erat volutpat. Ut vel neque vitae augue euismod tempor. Aenean sapien ex, consequat nec nisl ut, accumsan dapibus leo. Nam nunc felis, commodo in magna et, aliquet vulputate augue. Proin libero mauris, fermentum ac egestas sit amet, pretium et urna. Aliquam finibus, lorem a semper mattis, ex ex commodo diam, in vulputate sapien lacus et lectus. Sed aliquet purus ac lorem faucibus interdum. Cras accumsan consectetur erat a sollicitudin. Sed quis pellentesque massa, sed ultricies risus. Praesent lobortis eleifend tellus ornare eleifend. Sed vel ex vel arcu aliquam condimentum vitae sit amet lorem. Aenean bibendum eu justo at eleifend. Nulla eu ligula ut felis aliquam dictum tempus quis metus. Nam sed tellus quis libero mattis consequat sit amet commodo justo</p>
+        <div class="button-container">
+            <button id="home" type="button" onclick="myFunction()">Previous Page</button>
+            <button id="nextButton" type="button" onclick="myFunction()">Continue Exploring Data</button>
+        </div>
+        <script>
+            document.getElementById("nextButton").onclick = function () {
+                location.href = "linechart.html";
+            };
+            document.getElementById("home").onclick = function () {
+                location.href = "scatterplot.html";
+            };
+        </script>
+    </body>
+</html>
